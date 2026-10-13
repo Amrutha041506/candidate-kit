@@ -1,3 +1,19 @@
+# Employee Attendance & Analytics API | FastAPI, MongoDB
+
+Designed and developed a backend attendance management and analytics system using Python, FastAPI, and MongoDB, transforming employee attendance records into actionable HR insights.
+
+- Engineered RESTful APIs for employee lifecycle management, attendance tracking, punch-in/punch-out workflows, and attendance regularization with audit history.
+- Implemented complex attendance business logic covering IST time-zone handling, overnight shifts, late-arrival grace periods, overtime calculations, work-hour rounding, and half-day eligibility.
+- Built MongoDB aggregation pipelines for monthly employee analytics, cross-collection department summaries, tie-aware late-comer rankings, and department-level attendance trends with seven-day moving averages.
+- Optimized database access through strategic indexing, paginated queries, and execution-plan analysis to support efficient retrieval across large attendance datasets.
+- Addressed concurrent attendance operations using database-level consistency mechanisms to prevent duplicate records and preserve correction history.
+- Implemented input validation and structured HTTP error handling to improve API reliability and maintain predictable responses.
+- Documented code review findings, technical trade-offs, database design decisions, and application setup instructions.
+
+**Tech Stack:** Python, FastAPI, MongoDB, PyMongo, Uvicorn, REST APIs, Aggregation Pipelines, Git, GitHub.
+
+**Key Engineering Focus:** Backend API design, data integrity, concurrency control, database performance, business-rule validation, and analytics-driven reporting.
+
 # Candidate kit
 
 Read in this order:
